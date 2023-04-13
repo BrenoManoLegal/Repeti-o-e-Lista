@@ -2,8 +2,8 @@
 medias = []
 for i in range(10):
     notas = []
-    for i in range(4):
-        nota = float(input("Digite a nota {j+1} do aluno {i+1}: "))
+    for j in range(4):
+        nota = float(input(f"Digite a nota {j+1} do aluno {i+1}: "))
         notas.append(nota)
     media = sum(notas) / len(notas)
     medias.append(media)
