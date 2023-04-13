@@ -1,6 +1,16 @@
-conta_consoantes = ("número", "áureo", "micto", "mundo", "maior", "nunca", "copa", "trivela", "correu", "canarinho")
+vogais= ['a', 'e', 'i', 'o', 'u']
+consoante = ["b", "r", "n", "e", "o", "h", "j", "k", "l", "m"]
+consoantes= []
+consoantes= 0
+contador= 0
+for i in consoante:
+    if not consoante[contador] in vogais:
+        consoante+= 1
+        consoantes.append(consoantes[contador])
+    contador += 1
+    print("consoantes:", consoantes)
+    print("Outras consoantes:", consoante)
 
-consoantes = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z"]
 
 
 
